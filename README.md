@@ -1,52 +1,86 @@
 # MAYZ Tools
 
-This repository contains utility scripts to explore and analyze holdings and locked tokens for wallets in the MAYZ Protocol on Cardano.
+A collection of standalone scripts to analyze wallet holdings and locked assets in the MAYZ Protocol. Each script works independently and serves a specific purpose.
 
-## 📦 What it does
+## Setup
 
-- Calculates wallet current holdings and locked tokens across smart contracts.
-- Displays asset values in ADA and USD using price oracles.
-- Summarizes each wallet and global totals.
-- Supports CSV generation and stake address extraction.
-
-## 📂 Available scripts
-
-```
-"convertAddressToPkh": "TS_NODE_PROJECT='tsconfig.json' tsx ./src/convertAddressToPkh.ts",
-"extractStakeAddress": "TS_NODE_PROJECT='tsconfig.json' tsx ./src/extractStakeAddress.ts",
-"getMAYZHolders": "TS_NODE_PROJECT='tsconfig.json' tsx ./src/getMAYZHolders.ts",
-"balanceWallets": "TS_NODE_PROJECT='tsconfig.json' tsx ./src/balanceWallets.ts"
-```
-
-## 🛠️ Usage
-
-1. Clone the repo and install dependencies:
+1. Install dependencies
 
 ```
 npm install
 ```
 
-2. Copy the `.env.example` to `.env` and set your Blockfrost API key and any wallet addresses to scan:
+2. Create a `.env` file from `.env.example`. You’ll need to add your Blockfrost key and optionally wallet addresses.
 
-```
-BLOCKFROST_API_KEY=your_key_here
-WALLET_ADDRESSES="WALLET1:addr1q93ahk...,WALLET2:addr1q8nxqd...,WALLET3:addr1q8nxqd..."
-```
+---
 
-3. Run the main script:
+## Scripts
 
+### 🧮 balanceWallets
+
+Calculates per wallet:
+- Current UTXO holdings
+- Locked tokens in known MAYZ contracts
+- Token value in ADA and USD
+
+Shows summaries per contract, per wallet, and global.
+
+Run:
 ```
 npm run balanceWallets
 ```
 
-4. For holders and stake info:
+---
 
-- `getMAYZHolders`: Fetches and stores all gMAYZ holders.
-- `extractStakeAddress`: Parses addresses from `files/HOLDERS GMAYZ.txt` and extracts stake data.
-- `convertAddressToPkh`: Encodes PKH and optional stake into base address (edit values directly in the file).
+### 🪙 getMAYZHolders
 
-## ✅ Example
+Fetches all gMAYZ token holders from Blockfrost and writes them as CSV in the `files/` folder.
 
-Final logs include totals per wallet, holdings vs locked, token breakdowns, and USD values.
+Run:
+```
+npm run getMAYZHolders
+```
 
-Try it with your own wallets and feel free to create a branch to experiment with adding reward calculations.
+---
+
+### 🥩 extractStakeAddress
+
+Parses stake addresses from a text file (like `files/HOLDERS GMAYZ.txt`) and creates multiple CSV outputs mapping stake keys and balances.
+
+Run:
+```
+npm run extractStakeAddress
+```
+
+---
+
+### 🔁 convertAddressToPkh
+
+Converts hardcoded PKH and stake PKH into a full bech32 wallet address.
+
+You can edit the `src/convertAddressToPkh.ts` to test different key hashes.
+
+Run:
+```
+npm run convertAddressToPkh
+```
+
+---
+
+## Example Output
+
+The output of `balanceWallets` includes:
+
+- 🔸 Current Holdings
+- 🔸 Contract Balances (SwapOffer, Delegation, Staking, etc.)
+- 🔹 Subtotal Locked
+- 🔸 TOTAL Wallet (Holdings + Locked)
+- Global Totals across all wallets
+
+Each line shows quantity, ADA price, total ADA value and total USD:
+
+```
+→ MAYZ [4d41595a]: 50000000000 (₳ 0.003512) | ₳ 175.600000 | $145.22
+```
+
+You can test it using any address in `.env`. 
