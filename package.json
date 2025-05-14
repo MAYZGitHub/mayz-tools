@@ -7,14 +7,10 @@
         "node": "^18"
     },
     "scripts": {
-        "build": "tsc --build --verbose ",
-        "convert": "TS_NODE_PROJECT='tsconfig.json' tsx  ./src/convertAddressToPkh.ts",
+        "convertAddressToPkh": "TS_NODE_PROJECT='tsconfig.json' tsx  ./src/convertAddressToPkh.ts",
         "extractStakeAddress": "TS_NODE_PROJECT='tsconfig.json' tsx  ./src/extractStakeAddress.ts",
         "getMAYZHolders" : "TS_NODE_PROJECT='tsconfig.json' tsx  ./src/getMAYZHolders.ts",
-        "balanceWallets" : "TS_NODE_PROJECT='tsconfig.json' tsx  ./src/balanceWallets.ts",
-        "parse": "TS_NODE_PROJECT='tsconfig.json' tsx  ./src/parseBlockchain.ts",
-        "formatNumbers": "TS_NODE_PROJECT='tsconfig.json' tsx  ./src/formatNumbers.ts",
-        "formatNumbersDeb": "cross-env DEBUG=true NODE_OPTIONS='--inspect' TS_NODE_PROJECT='tsconfig.json' tsx  ./src/formatNumbers.ts"
+        "balanceWallets" : "TS_NODE_PROJECT='tsconfig.json' tsx  ./src/balanceWallets.ts"
     },
     "dependencies": {
         "@emurgo/cardano-serialization-lib-nodejs": "^11.5.0",

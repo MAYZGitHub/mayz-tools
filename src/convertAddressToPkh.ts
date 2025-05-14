@@ -1,4 +1,12 @@
 import C from '@emurgo/cardano-serialization-lib-nodejs';
+import dotenv from 'dotenv';
+import fs from 'fs';
+
+if (fs.existsSync('.env.local')) {
+    dotenv.config({ path: '.env.local' });
+} else {
+    dotenv.config(); // fallback a .env
+}
 
 export function pubKeyHashToAddress(network: number, pkh: string, stakePkh?: string) {
     console.log('pubKeyHashToAddress - pkh: ' + pkh);
