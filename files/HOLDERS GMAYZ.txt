@@ -1,0 +1,206 @@
+[
+    {
+        "address": "addr1w8yev93jyze583nnnvfung94kfxu86wsrexh7m2ylexcqfs7s4kyn",
+        "quantity": "41441754241"
+    },
+    {
+        "address": "addr1qxjr4s40qx0uegm4yxru27rptflvf6s56alg7ymygkc5y70w0vzkq0yagu75tdjgzdu7p2hmc9rgypeq3csjpq67l0hsvsl96q",
+        "quantity": "166212981"
+    },
+    {
+        "address": "addr1q9wrfr8sssm0vxl7ccupjcd7ga2480lljwhppc3cw0yuzrcgt50hjul5dw6sj9zva65zjwkmagex78ckqw65quxzvyssx3apen",
+        "quantity": "3524546"
+    },
+    {
+        "address": "addr1q994fmc5r435q4u3g5505hew2ypdqw4cxsvp666f9etvaxe6nktpkrxdyqufa93n5e9mmuyy4am4pftmrfn4yxg7k2fswl9eva",
+        "quantity": "19081250"
+    },
+    {
+        "address": "addr1qxfh75qf8rlh3p5fluv543kqrrjzxjw6l89ghvdwu0r34qmvssf8ehhygy84ynmh6ufkgr2tyrngudjhapz3t6fcge5syekv3t",
+        "quantity": "115875089"
+    },
+    {
+        "address": "addr1qy7z5ssrejmg7pvj7qq5rtf63anfzg837y4mjzs3v86k7fldfzwv4cpplret0el9lmarm5xesvtul2gsvkea5fkwwrfqucmd6a",
+        "quantity": "90400000"
+    },
+    {
+        "address": "addr1qx5h2ma3qe53crazdpwnwn6k4d74ezwme84atyp32m2ja6kf5zkhwnp8jrxp9jznkdm96ff4yxzf279y8zgeuw3wwdls5k2kg9",
+        "quantity": "1647695658"
+    },
+    {
+        "address": "addr1q82zmt6xd0zg856uks3p8ruhv4snaayswj87cnx6wp5zgmrexsmydaaplg3cvpss8gpgtl27zf5uwq9z8cc3gezw9qvsktkj2e",
+        "quantity": "335457583"
+    },
+    {
+        "address": "addr1qxt04gu64jqvee84gggxyvm7wcz3n2mkgm349hrmnjkcg34jkgt37hsazqqzmknzls0duylmw3hu5xclxq266mlskmlq8e9u5q",
+        "quantity": "12647037"
+    },
+    {
+        "address": "addr1qxnkvwj5d8tef0ne5tnxn629lppnt70jstjfhz7552wyl5jtadj9rulfwafr45k34rkd7np5lu8el7qmyk5wu83ew3js8qfmgs",
+        "quantity": "135137559"
+    },
+    {
+        "address": "addr1qxp7n69kf70xw83ph6dzlu5d3cd4ugjwq2dy7h80zy8zufexkf2mqkahmx5zz0vdxr60v3uj7v9aqdpy0rg5x30462gs7vtq2p",
+        "quantity": "70813210"
+    },
+    {
+        "address": "addr1qyjecwtxmm9acqjfwk4hksp0duednpmert2a3nx4sxwkuanksjvp4whuhen3tkv3n449nggpj4lnta6quqkjtvzngeyspd9qjx",
+        "quantity": "8230339532"
+    },
+    {
+        "address": "addr1qypjqpkpkckhlvfxdcuw7q5829xsxwgqq9fxqju4uglgfudlkn28mjz4stmk8manyl55nfcfvlpfdly57lap3cnvtsls3n0jml",
+        "quantity": "4521436"
+    },
+    {
+        "address": "addr1q8tq38gpvw99durkhxp727qq9a3tdupklmru9fn7q3tw58uhar56na82q7rf70ud34c0mgvzy7zq04ftrt0psd9z6dpq8fcslm",
+        "quantity": "11014486"
+    },
+    {
+        "address": "addr1qx2sxl9wa3tdxq2kx6znkzraeyflxtmq4k3gkmwtxsp8v6ccn6dswt56spwj5xg5dlr9zw0vsd45yewn5zgtt7s9256q79nl7c",
+        "quantity": "16385969"
+    },
+    {
+        "address": "addr1qylxu8pqaa5rlj6vlxz40f6vdyhqq4u4p4hqkaacpz6ey68mxw5amq5as6lw05jevzm3v7l2cazd3kh50yd7h4va8cjql8gylk",
+        "quantity": "70813210"
+    },
+    {
+        "address": "addr1q97q6esrcg06ld0wv2jgck45967ged4au8sc9alvu5qtmknny2y9nwvrk5grjf0zdv4gyhfnhj3m7y9dxf6sg6ak653szkvj8v",
+        "quantity": "126850000"
+    },
+    {
+        "address": "addr1qxzt4sge5jz2h7uwq7zangz5c9zn9vynqeqwz3auwsps7l2ard8yjkzw6pay9xfgcpzq78zgq33a79pla2txxv72zwsq88k60k",
+        "quantity": "75864552"
+    },
+    {
+        "address": "addr1q8s94zg0h535mla9gtcyj6lzhmzztyf2t5eh7glp4s86lt27knp3xs8kxshqfjvvhq3tyqqg4k5mv4r2zqll33wknh7qy5qxuf",
+        "quantity": "177444380"
+    },
+    {
+        "address": "addr1q8cyuw30gflnqd3yjk9gv8gc7et7xplxtknnjghgmq3a2u7q0730wy2j9k40fv48czxcv6lly6e6a9kugw4nfx6uxzqqqxv3tc",
+        "quantity": "1318915568"
+    },
+    {
+        "address": "addr1q9yjk0qm9uknrvmlfnwtnhkkmwzru9v80ltz5mhew8fcrjn0kjzr5tga9y7j603lxhj6kpzhwg2nu0t3j22wyyvndhuqtpyyup",
+        "quantity": "254477424"
+    },
+    {
+        "address": "addr1q8hac2v2uk6yswnvdmczc9g9prgj3azmrksw7aqszvjxgwznxlwcdv8fx7w8vxndcjlmngm7zjtdsmkllwaty5lwhkkq4ph7fn",
+        "quantity": "150821344"
+    },
+    {
+        "address": "addr1qxpufkt2nvcqve3n4jvsjnvxknu3yf3tgv2gzt38mcp9k7n6hvl7y82c7t6z4p7t73a859q8qzt0mfadlacdyrlk02tqz28vkw",
+        "quantity": "2481559177"
+    },
+    {
+        "address": "addr1q8564exq5pnlul93fw9rx3z79fv60crcsc7wj76vssqz8qyw3mf7t2fwj0fd0g05mg9n4r79m954kltfmqd582kx5zdqj00fa9",
+        "quantity": "244785000"
+    },
+    {
+        "address": "addr1qydfayyqtknj8v0vkzwp2cnkgep0xx4xp8u8jkc2e6uk4t7r6y6p6jtv9q0wus205pg8pdst82yndaryav36xaqngk3sy5c08z",
+        "quantity": "372811280"
+    },
+    {
+        "address": "addr1q85tv6jua4mkjun9s6ejez4me4udl67rud5f0hp5m094ceaa6pgggakt5hwrrf4p6xyl5cannyrfpd9cfgy5ue464j7qryt6jy",
+        "quantity": "3256715280"
+    },
+    {
+        "address": "addr1qxf0vp30qg9p3umn9pwvqf028fcv2ye2j2fyg6ydd9k9t9zry0szdxwvzdv2p7zapcc7warkxwrvf284nudvunw579sq2q27sc",
+        "quantity": "26669729904"
+    },
+    {
+        "address": "addr1q9st4dkvljwykruaeqd4rt2vgfdcdewzvrn656nk4pnr6k8mldjfta7qke722qfqny89s50kqy4nf6vzh9hxrsdglj2srmpmm7",
+        "quantity": "1000000"
+    },
+    {
+        "address": "addr1q9d7n50ghahl8zx2ycq6xaprvxs2rfyxlgrculwjawvm00mwgwvqasxc2lxgtnw68sajc7cs2tdkpt4judgegrt09dxqfqvlv0",
+        "quantity": "387167993"
+    },
+    {
+        "address": "addr1qxhr4nxnp9jg0975fchdzra8zzr3ap5rf27rm7evkqwqvp8028r7r3796c8jc87qqqqxa0y7g9lu8yqkrnq9g9cawjuq5z7w32",
+        "quantity": "141639567"
+    },
+    {
+        "address": "addr1q9ty96fs7pr2yprgap9fxx9a0gq62gxcses2h3sr23w0nknjfwj9c8a7c3k3hnvg7sypqqwlyeclx2qjpjg6jjw746mqvyyvly",
+        "quantity": "20798647263"
+    },
+    {
+        "address": "addr1q84qyfupnehhytusmj4j6g7w7gmyjvjv38yqdr6xef8llcz2mtnpv2ujh3q6ljdf5m96vg9trhwvwp0jd2hyw0favvfqdylvtf",
+        "quantity": "169260000"
+    },
+    {
+        "address": "addr1q872dl2fs2z5ep7eygcghh0g425jnw4vwkzfk6hja4l8h0rnvp4y4jqqc34tnk5zcc8g9tld0kgckuwnmytvnyztv6gq8srj8d",
+        "quantity": "1339052000"
+    },
+    {
+        "address": "addr1qx93s6v4vmcptmtdzleehlhkc3em8ynw0u7ysn6upjaauwfykcpaheakz66yyll2rrxfn2vtcz3eh236mk6c44xjjjvqzcdaja",
+        "quantity": "1866978925"
+    },
+    {
+        "address": "addr1qyzdrh44hjrsh4pyqyphk7xj0c7sefu5dy2qpmy9a7r4tnk8zqma069dj0z5lhkzsvdtzyulgn3gyjcjx07fdj35xr0s08dcpd",
+        "quantity": "25000000"
+    },
+    {
+        "address": "addr1qxyku586arrfsdmdk4dwvyq8dy8cll5l40jrz58qzjjd5z7j6xakhccfv45ntckdm94c69707n5r6d6megleva66r29q4u3ags",
+        "quantity": "700000000"
+    },
+    {
+        "address": "addr1qy82e58s0xeje0xun3vea8t8kjxwhz8m5j23fn5qeczdwv0m03n7v6xmxyl3pvdq227gjy7zcys3zyztkv370ple7yqq3yya53",
+        "quantity": "117859779"
+    },
+    {
+        "address": "addr1qx866v22f4d3998u8xz9lqjswqneygl8e0x99jl8nkt659nlr9np3c9dsc5cll7lvnfjzzm8cvt69883x273qqkxp9pqhxefrk",
+        "quantity": "138307968"
+    },
+    {
+        "address": "addr1q8jzhxrq05tnu6l536lut02hggcn4gsxmu9xa0nr53st3zndxv3yjdzw7t7pg3m63qt3a7e34pas447veyld4yspkq7qhldv4l",
+        "quantity": "175000000"
+    },
+    {
+        "address": "addr1qyu49p6esttle0cc0wu93slk4ws4hm38gfye5p9dtxdvcxvljfuv4hch038ffqh8l07xj7a7u0992rpr7l3d9fpkg5qsgt0zv4",
+        "quantity": "93433138"
+    },
+    {
+        "address": "addr1qxk35t4c63jn3ude6q98t3ddgu3q65etckm4yujv5e2fysucrs4gf7my3wta4tafhc93g25czd6ump369hm6vjpva8zqhm6kw8",
+        "quantity": "20896609"
+    },
+    {
+        "address": "addr1qyq4x4vhs44yvu4wdvz6jp7jtzs7h8czsp08mu953nreulrtd237p9vmaag6xwc096knhjlm943lnvg9h3mt6ctx3rvq3zxg20",
+        "quantity": "922203044"
+    },
+    {
+        "address": "addr1w97l8camcru0jsanv8cwf3ru5mrtep9zzcm7tqsg8pcf4hsh3nufx",
+        "quantity": "500000000"
+    },
+    {
+        "address": "addr1qxk6gx4k6ynk3n2tujkv8dxzx5n6ndcnm4pnd6y7vskyxafqg0rfpd3aslpxkkyqcqslgv72x4eqfk8jyfflkwq0q2zqy2xyeh",
+        "quantity": "158356905"
+    },
+    {
+        "address": "addr1w8eewkl3zrrlu9mp0gw7lvtd5zavaghsukmf6ynq9668ajc6pzu77",
+        "quantity": "20000000"
+    },
+    {
+        "address": "addr1wxjk575g7dt7efpa74druyyx0ufcnm8wku9gnxust0rsacs8zldfg",
+        "quantity": "10100000"
+    },
+    {
+        "address": "addr1q838pyzu3zctm5c5f004ds8m04kp3yzzmja9t3pnwhsu65xmcrj5yk00zdu8s89ek2eluz0ezrrxcka6th8es3qc9amqkfzj99",
+        "quantity": "35000000"
+    },
+    {
+        "address": "addr1w93kjy8vgfka66aaw2780njmjz9csxvt9k43snv7mwmvfygnwg8nw",
+        "quantity": "100"
+    },
+    {
+        "address": "addr1qxfqyu0gjpjkq8cj468pqy4e4tzrdjqyqym7txphekmrdwg6s93v6la90e577jmf2dgpduh3d37vs7nv5j6x3v6hpc3spe0upj",
+        "quantity": "5962684948"
+    },
+    {
+        "address": "addr1q93ahkwqtghpe4megvrps26cnd0nmqxkq24jsenexsc7suc4pxw3akg47zvj9kkmdu952aff9qnx5xx07gg6f22ufdxswlu0kv",
+        "quantity": "1323317870"
+    },
+    {
+        "address": "addr1q8nxqd7lzyfluen6slh5ggy5vnn0atqgm8at9d8sp4h9gu6r76h9vjpm78e4ffyl0rr2ccjhgvqvr0dun343wxx94ueqm6tem8",
+        "quantity": "900000"
+    }
+]

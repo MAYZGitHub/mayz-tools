@@ -1,0 +1,28 @@
+{
+    "name": "standalone-scripts",
+    "version": "1.0.0",
+    "description": "Standalone scripts to work with the main project",
+    "private": true,
+    "engines": {
+        "node": "^18"
+    },
+    "scripts": {
+        "build": "tsc --build --verbose ",
+        "convert": "TS_NODE_PROJECT='tsconfig.json' tsx  ./src/convertAddressToPkh.ts",
+        "extractStakeAddress": "TS_NODE_PROJECT='tsconfig.json' tsx  ./src/extractStakeAddress.ts",
+        "getMAYZHolders" : "TS_NODE_PROJECT='tsconfig.json' tsx  ./src/getMAYZHolders.ts",
+        "balanceADA" : "TS_NODE_PROJECT='tsconfig.json' tsx  ./src/balanceADA.ts",
+        "parse": "TS_NODE_PROJECT='tsconfig.json' tsx  ./src/parseBlockchain.ts",
+        "formatNumbers": "TS_NODE_PROJECT='tsconfig.json' tsx  ./src/formatNumbers.ts",
+        "formatNumbersDeb": "cross-env DEBUG=true NODE_OPTIONS='--inspect' TS_NODE_PROJECT='tsconfig.json' tsx  ./src/formatNumbers.ts"
+    },
+    "dependencies": {
+        "@emurgo/cardano-serialization-lib-nodejs": "^11.5.0",
+        "@lucid-evolution/lucid": "^0.4.24",
+        "cross-env": "^7.0.3",
+        "tsx": "^4.7.2"
+    },
+    "devDependencies": {
+        "ts-node": "^10.9.2"
+    }
+}
