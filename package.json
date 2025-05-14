@@ -11,7 +11,7 @@
         "convert": "TS_NODE_PROJECT='tsconfig.json' tsx  ./src/convertAddressToPkh.ts",
         "extractStakeAddress": "TS_NODE_PROJECT='tsconfig.json' tsx  ./src/extractStakeAddress.ts",
         "getMAYZHolders" : "TS_NODE_PROJECT='tsconfig.json' tsx  ./src/getMAYZHolders.ts",
-        "balanceADA" : "TS_NODE_PROJECT='tsconfig.json' tsx  ./src/balanceADA.ts",
+        "balanceWallets" : "TS_NODE_PROJECT='tsconfig.json' tsx  ./src/balanceWallets.ts",
         "parse": "TS_NODE_PROJECT='tsconfig.json' tsx  ./src/parseBlockchain.ts",
         "formatNumbers": "TS_NODE_PROJECT='tsconfig.json' tsx  ./src/formatNumbers.ts",
         "formatNumbersDeb": "cross-env DEBUG=true NODE_OPTIONS='--inspect' TS_NODE_PROJECT='tsconfig.json' tsx  ./src/formatNumbers.ts"
