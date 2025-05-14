@@ -1,10 +1,14 @@
-import fs from 'fs';
 import axios from 'axios';
 import C from '@emurgo/cardano-serialization-lib-nodejs';
 import dotenv from 'dotenv';
+import fs from 'fs';
 
 // Cargamos variables de entorno desde .env
-dotenv.config();
+if (fs.existsSync('.env.local')) {
+    dotenv.config({ path: '.env.local' });
+} else {
+    dotenv.config(); // fallback a .env
+}
 
 const BLOCKFROST_API_KEY = process.env.BLOCKFROST_API_KEY;
 if (!BLOCKFROST_API_KEY) throw new Error('BLOCKFROST_API_KEY is missing in .env file.');
