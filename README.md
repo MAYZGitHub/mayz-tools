@@ -83,4 +83,4 @@ Each line shows quantity, ADA price, total ADA value and total USD:
 → MAYZ [4d41595a]: 50000000000 (₳ 0.003512) | ₳ 175.600000 | $145.22
 ```
 
-You can test it using any address in `.env`. 
+You can test it using any address in `.env`.
