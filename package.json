@@ -12,6 +12,10 @@
         "getMAYZHolders": "TS_NODE_PROJECT='tsconfig.json' tsx  ./src/getMAYZHolders.ts",
         "balanceWallets": "TS_NODE_PROJECT='tsconfig.json' tsx  ./src/balanceWallets.ts",
         "balanceGMAYZ": "TS_NODE_PROJECT='tsconfig.json' tsx  ./src/balanceGMAYZ.ts",
+        "getFunds": "TS_NODE_PROJECT='tsconfig.json' tsx  ./src/getFunds.ts",
+        "getFundsHistory": "TS_NODE_PROJECT='tsconfig.json' tsx  ./src/getFundsHistory.ts",
+        "getUserHistory": "TS_NODE_PROJECT='tsconfig.json' tsx  ./src/getUserHistory.ts",
+        "getFundsAndUserHistory": "TS_NODE_PROJECT='tsconfig.json' tsx  ./src/getFundsAndUserHistory.ts",
         "dumpAll": "TS_NODE_PROJECT='tsconfig.json' tsx  ./src/dumpAll.ts"
     },
     "dependencies": {
