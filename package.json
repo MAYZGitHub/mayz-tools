@@ -11,6 +11,7 @@
         "extractStakeAddress": "TS_NODE_PROJECT='tsconfig.json' tsx  ./src/extractStakeAddress.ts",
         "getMAYZHolders": "TS_NODE_PROJECT='tsconfig.json' tsx  ./src/getMAYZHolders.ts",
         "balanceWallets": "TS_NODE_PROJECT='tsconfig.json' tsx  ./src/balanceWallets.ts",
+        "balanceGMAYZ": "TS_NODE_PROJECT='tsconfig.json' tsx  ./src/balanceGMAYZ.ts",
         "dumpAll": "TS_NODE_PROJECT='tsconfig.json' tsx  ./src/dumpAll.ts"
     },
     "dependencies": {
