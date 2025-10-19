@@ -22,13 +22,13 @@ if (!BLOCKFROST_API_KEY) throw new Error('Missing BLOCKFROST_API_KEY in .env');
 
 const BASE_URL = 'https://cardano-mainnet.blockfrost.io/api/v0';
 
-const WALLET_ADDRESSES: { name: string; address: string }[] = (process.env.WALLETS || '')
-    .split(',')
-    .map(entry => {
-        const [name, address] = entry.split(':');
-        return { name: name.replace(/_/g, ' '), address };
-    })
-    .filter(entry => entry.name && entry.address);
+const WALLET_ADDRESSES: { name: string; address: string }[] = [
+    { name: 'MANUPERSONAL', address: 'addr1q93ahkwqtghpe4megvrps26cnd0nmqxkq24jsenexsc7suc4pxw3akg47zvj9kkmdu952aff9qnx5xx07gg6f22ufdxswlu0kv' },
+    { name: 'MANU MAYZ', address: 'addr1q8nxqd7lzyfluen6slh5ggy5vnn0atqgm8at9d8sp4h9gu6r76h9vjpm78e4ffyl0rr2ccjhgvqvr0dun343wxx94ueqm6tem8' },
+    { name: 'FEDE', address: 'addr1qyazlw25zq3tjkegdpe22y9as2ffpmy8ep4pkpskhz5pj6py97yhj07etqm0n4r6282h0d80mwrrkhsc7x5l5cq57qxsathzfl' },
+    { name: 'MAYZ OFFICIAL', address: 'addr1qxf0vp30qg9p3umn9pwvqf028fcv2ye2j2fyg6ydd9k9t9zry0szdxwvzdv2p7zapcc7warkxwrvf284nudvunw579sq2q27sc' },
+    // Add more wallets here as needed
+];
 
 const CONTRACTS = [
     {
